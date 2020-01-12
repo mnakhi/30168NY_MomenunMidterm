@@ -15,7 +15,7 @@ public class Permutation {
         Permutation permutation = new Permutation();
         String actualWord = "ABC";
         int length = actualWord.length();
-        System.out.println("All the permutations of the string are: ");
+        System.out.println("All the permutations of "+actualWord+" are:");
         generatePermutation(actualWord,0,length);
         //permutation.permute("ABC");
 
