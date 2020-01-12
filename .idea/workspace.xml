@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,9 +105,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Anagram" />
       <item itemvalue="Application.ConnectToMongoDB" />
       <item itemvalue="Application.CsvReader" />
+      <item itemvalue="Application.Anagram" />
     </list>
     <recent_temporary>
       <list>
@@ -147,22 +147,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="648" y="318" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.860@0.0.1600.860" timestamp="1578840884846" />
-    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1578841594854">
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1578843238702">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578841594854" />
-    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1578841594853">
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578843238702" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1578843238702">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578841594853" />
-    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1578841594853">
+    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578843238702" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1578843238701">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578841594853" />
-    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1578841594853">
+    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578843238701" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1578843238702">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578841594853" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578843238702" />
     <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1578842134260">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
