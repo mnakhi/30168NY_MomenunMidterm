@@ -12,7 +12,23 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		String primeNumbers = "";
+		for (int i = 2; i <= 1000000; i++) {
+			if(isPrime(i)==true){
+				primeNumbers = primeNumbers + i+ " ";
+			}
+		}
+		System.out.print("Prime numbers from 2 to 1000000 are: "+ primeNumbers);
+	}
+	public static boolean isPrime(int numberToCheck) {
+		for (int i = 2; i <= numberToCheck / 2; i++) {
+			if (numberToCheck%i == 0) {
+				return false;
+			}
+		}
+		return true;
 
 	}
-
 }
+
+
