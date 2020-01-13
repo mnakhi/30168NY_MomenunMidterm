@@ -4,7 +4,6 @@
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/problems/MakePyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/MakePyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/Pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Pattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pattern">
+  <component name="RunManager" selected="Application.MakePyramid">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -83,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
+    <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.MakePyramid" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -97,13 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
+    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,18 +134,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.FindMissingNumber" />
       <item itemvalue="Application.Pattern" />
+      <item itemvalue="Application.MakePyramid" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakePyramid" />
         <item itemvalue="Application.Pattern" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -184,22 +183,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578932449884" />
-    <state width="1557" height="223" key="GridCell.Tab.0.bottom" timestamp="1578935590243">
+    <state width="1557" height="223" key="GridCell.Tab.0.bottom" timestamp="1578936574793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578935590243" />
-    <state width="1557" height="223" key="GridCell.Tab.0.center" timestamp="1578935590243">
+    <state width="1557" height="223" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578936574793" />
+    <state width="1557" height="223" key="GridCell.Tab.0.center" timestamp="1578936574793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578935590243" />
-    <state width="1557" height="223" key="GridCell.Tab.0.left" timestamp="1578935590241">
+    <state width="1557" height="223" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578936574793" />
+    <state width="1557" height="223" key="GridCell.Tab.0.left" timestamp="1578936574792">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578935590241" />
-    <state width="1557" height="223" key="GridCell.Tab.0.right" timestamp="1578935590243">
+    <state width="1557" height="223" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578936574792" />
+    <state width="1557" height="223" key="GridCell.Tab.0.right" timestamp="1578936574793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578935590243" />
+    <state width="1557" height="223" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578936574793" />
     <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1578932395238">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -211,6 +210,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/codelab/status/CsvReader.java</url>
           <line>41</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/math/problems/FindMissingNumber.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
