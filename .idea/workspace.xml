@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Factorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Anagram" />
+    <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -52,13 +53,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Anagram" />
       <item itemvalue="Application.DuplicateWord" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.Factorial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.DuplicateWord" />
-        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -181,26 +182,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578860695611" />
-    <state width="1557" height="223" key="GridCell.Tab.0.bottom" timestamp="1578863740491">
+    <state width="1557" height="223" key="GridCell.Tab.0.bottom" timestamp="1578893393103">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578863740491" />
-    <state width="1557" height="223" key="GridCell.Tab.0.center" timestamp="1578863740491">
+    <state width="1557" height="223" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578893393103" />
+    <state width="1557" height="223" key="GridCell.Tab.0.center" timestamp="1578893393103">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578863740491" />
-    <state width="1557" height="223" key="GridCell.Tab.0.left" timestamp="1578863740491">
+    <state width="1557" height="223" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578893393103" />
+    <state width="1557" height="223" key="GridCell.Tab.0.left" timestamp="1578893393102">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578863740491" />
-    <state width="1557" height="223" key="GridCell.Tab.0.right" timestamp="1578863740491">
+    <state width="1557" height="223" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578893393102" />
+    <state width="1557" height="223" key="GridCell.Tab.0.right" timestamp="1578893393103">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="223" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578863740491" />
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1578842134260">
+    <state width="1557" height="223" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578893393103" />
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1578892743769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1578842134260" />
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1578892743769" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

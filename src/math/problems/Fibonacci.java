@@ -7,23 +7,20 @@ public class Fibonacci {
           0,1,1,2,3,5,8,13
          */
          int max = 40;
-         for(int i = 0; i<=max;i++){
+         for(int i = 0; i<max;i++){
              System.out.println(findFibonacci(i));
          }
 
     }
-    public static int findFibonacci(int num){
-        if (num==0){
+    public static int findFibonacci(int number){
+        if (number==0){
             return 0;
         }
-        if(num == 1){
-            return 1;
-        }
-        if (num==2){
+        if(number == 1||number==2) {
             return 1;
         }
 
-        return findFibonacci(num-1)+ findFibonacci(num-2);
+        return findFibonacci(number-1)+ findFibonacci(number-2);
     }
 
 }
