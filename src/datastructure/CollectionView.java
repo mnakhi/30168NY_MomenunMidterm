@@ -23,7 +23,7 @@ public static void main(String[] args) {
         for(String value:map.values()) {
                 System.out.println(value);
         }
-        
+
 
     }
 
