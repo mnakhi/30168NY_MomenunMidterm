@@ -34,7 +34,6 @@ public class DuplicateWord {
                 System.out.println(words[i] + " " + count);
             }
         }
-            //ArrayList<String>words =new ArrayList<>();
             System.out.println("*********************************");
 
             for (String word:words) {
@@ -46,7 +45,7 @@ public class DuplicateWord {
             if(countWord>0){
                 average = total/countWord;
             }
-            System.out.println("Average word length "+average);
+            System.out.println("Average word length is: "+average);
             }
 
 
