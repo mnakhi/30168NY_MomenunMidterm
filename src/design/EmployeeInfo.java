@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo extends AbstractEmployee implements Employee {
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -21,7 +21,89 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
-	
+	final String COMPANY_ADDRESS="XYZ street";
+	private String employeeName;
+	private int employeeId;
+	private String assignedDepartment;
+	private static double salary;
+	private char gender;
+	private String dateOfBirth;
+	private int performance;
+
+
+
+	public static double getSalary() {
+		return salary;
+	}
+
+	public static void setSalary(double salary) {
+		EmployeeInfo.salary = salary;
+	}
+
+
+	public int getEmployeeId() {
+		return employeeId;
+	}
+
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+
+
+	public String getEmployeeName() {
+		return employeeName;
+	}
+
+
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+
+	public String getAssignedDepartment() {
+		return assignedDepartment;
+	}
+
+	public void setAssignedDepartment(String assignedDepartment) {
+		this.assignedDepartment = assignedDepartment;
+	}
+
+	public int getPerformance() {
+		return performance;
+	}
+
+	public void setPerformance(int performance) {
+		this.performance = performance;
+	}
+
+
+
+	public static String getCompanyName() {
+		return companyName;
+	}
+
+	public static void setCompanyName(String companyName) {
+		EmployeeInfo.companyName = companyName;
+	}
+
+	public String getCOMPANY_ADDRESS() {
+		return COMPANY_ADDRESS;
+	}
+
+	public char getGender() {
+		return gender;
+	}
+
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
 	/*
 	 * You must implement the logic for below 2 methods and 
 	 * following 2 methods are prototype as well for other methods need to be design,
@@ -32,13 +114,31 @@ public class EmployeeInfo {
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
-	public EmployeeInfo(int employeeId){
-		
+	public EmployeeInfo(){
 	}
-    public EmployeeInfo(String name, int employeeId){
-		
+	public EmployeeInfo(int employeeId, String employeeName) {
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
 	}
-	
+
+	public EmployeeInfo(String employeeName, int employeeId, String assignedDepartment,double salary, char gender) {
+		this.employeeName = employeeName;
+		this.employeeId = employeeId;
+		this.assignedDepartment = assignedDepartment;
+		this.salary=salary;
+		this.gender = gender;
+	}
+
+
+	public EmployeeInfo(String employeeName, int employeeId, String assignedDepartment, char gender, String dateOfBirth, int performance) {
+		this.employeeName = employeeName;
+		this.employeeId = employeeId;
+		this.assignedDepartment = assignedDepartment;
+		this.gender = gender;
+		this.dateOfBirth = dateOfBirth;
+		this.performance = performance;
+	}
+
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
 	 * Then it will return the total yearly bonus. So you need to implement the logic.
@@ -47,8 +147,20 @@ public class EmployeeInfo {
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
-	public static int calculateEmployeeBonus(int numberOfYearsWithCompany){
-		int total=0;
+	public static double calculateEmployeeBonus(int salary, int performance){
+		double total=0;
+		if(performance == 100 && performance>80){
+			total += (salary*.10);
+		}else if(performance <=80 && performance>70){
+			total += (salary*.08);
+		}else if(performance <= 70 && performance>50){
+			total += (salary*.70);
+		}else if (performance <= 50 && performance>30){
+			total+=(salary*.50);
+		}else{
+			total+=total;
+		}
+
 		return total;
 	}
 	
@@ -58,8 +170,8 @@ public class EmployeeInfo {
 	 * Hints: pension will be 5% of the salary for 1 year, 10% for 2 years with the company and so on.
 	 * 
 	 */
-	public static int calculateEmployeePension(){
-		int total=0;
+	public static double calculateEmployeePension(){
+		double pensionAmount=0;
 		Scanner sc  = new Scanner(System.in);
 		System.out.println("Please enter start date in format (example: May,2015): ");
 		String joiningDate = sc.nextLine();
@@ -67,14 +179,59 @@ public class EmployeeInfo {
 		String todaysDate = sc.nextLine();
         String convertedJoiningDate = DateConversion.convertDate(joiningDate);
         String convertedTodaysDate = DateConversion.convertDate(todaysDate);
+		String startYear = convertedJoiningDate.substring(convertedJoiningDate.length() - 4, convertedJoiningDate.length());
+		String currentYear = convertedTodaysDate.substring(convertedTodaysDate.length() - 4, convertedTodaysDate.length());
+        int start=Integer.parseInt(startYear);
+        int current = Integer.parseInt(currentYear);
+
 
         //implement numbers of year from above two dates
 		//Calculate pension
+		int numOfYearsWorked = current-start;
+		if(numOfYearsWorked>=10){
+			pensionAmount = salary*.30;
+		}else if(numOfYearsWorked>=5 && numOfYearsWorked<10){
+			pensionAmount = salary*.25;
+;		}else if(numOfYearsWorked==4){
+			pensionAmount=salary*.20;
+		}else if(numOfYearsWorked == 3){
+			pensionAmount = salary*.15;
+		}else if(numOfYearsWorked == 2){
+			pensionAmount=salary*.10;
+		}else if(numOfYearsWorked == 1){
+			pensionAmount = salary*.05;
+		}else{
+			pensionAmount = 0;
+		}
 
-
-
-		return total;
+		return pensionAmount;
 	}
+
+	@Override
+	public int employeeId() {
+		return 0;
+	}
+
+	@Override
+	public String employeeName() {
+		return null;
+	}
+
+	@Override
+	public void assignDepartment() {
+
+	}
+
+	@Override
+	public int calculateSalary() {
+		return 0;
+	}
+
+	@Override
+	public void benefitLayout() {
+
+	}
+
 	private static class DateConversion {
 
 		public DateConversion(Months months){}

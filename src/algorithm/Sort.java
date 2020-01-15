@@ -57,17 +57,17 @@ public class Sort {
     public int [] mergeSort(int [] array){
         int [] list = array;
         //implement here
-        
+
         
 
         return list;
     }
-    
+
 
     public int [] quickSort(int [] array){
         int [] list = array;
         //implement here
-        
+
         
 
         return list;

@@ -3,13 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +48,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataReader">
+  <component name="RunManager" selected="Application.DetermineLargestWord">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -69,13 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+    <configuration name="DetermineLargestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.DetermineLargestWord" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.*" />
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FortuneEmployee" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +158,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UseArrayList" />
+      <item itemvalue="Application.FortuneEmployee" />
+      <item itemvalue="Application.CollectionView" />
+      <item itemvalue="Application.DataReader" />
       <item itemvalue="Application.UseMap" />
       <item itemvalue="Application.UseQueue" />
-      <item itemvalue="Application.DataReader" />
-      <item itemvalue="Application.CollectionView" />
+      <item itemvalue="Application.DetermineLargestWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetermineLargestWord" />
         <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.CollectionView" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.UseMap" />
-        <item itemvalue="Application.UseArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +201,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="517" y="88" key="#FortuneEmployee" timestamp="1579120037352">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="517" y="88" key="#FortuneEmployee/0.0.1600.860@0.0.1600.860" timestamp="1579120037352" />
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579119619347">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1579119619347" />
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1579119270501">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1579119270501" />
     <state x="648" y="318" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578840884846">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -184,42 +221,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578932449884" />
-    <state width="1557" height="169" key="GridCell.Tab.0.bottom" timestamp="1579025867068">
+    <state width="1557" height="169" key="GridCell.Tab.0.bottom" timestamp="1579124249709">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579025867068" />
-    <state width="1557" height="169" key="GridCell.Tab.0.center" timestamp="1579025867068">
+    <state width="1557" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579124249709" />
+    <state width="1557" height="169" key="GridCell.Tab.0.center" timestamp="1579124249709">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579025867068" />
-    <state width="1557" height="169" key="GridCell.Tab.0.left" timestamp="1579025867068">
+    <state width="1557" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579124249709" />
+    <state width="1557" height="169" key="GridCell.Tab.0.left" timestamp="1579124249709">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579025867068" />
-    <state width="1557" height="169" key="GridCell.Tab.0.right" timestamp="1579025867068">
+    <state width="1557" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579124249709" />
+    <state width="1557" height="169" key="GridCell.Tab.0.right" timestamp="1579124249709">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579025867068" />
-    <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1578979917244">
+    <state width="1557" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579124249709" />
+    <state width="1557" height="239" key="GridCell.Tab.1.bottom" timestamp="1579123708363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="275" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578979917244" />
-    <state width="1557" height="275" key="GridCell.Tab.1.center" timestamp="1578979917244">
+    <state width="1557" height="239" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579123708363" />
+    <state width="1557" height="239" key="GridCell.Tab.1.center" timestamp="1579123708363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="275" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1578979917244" />
-    <state width="1557" height="275" key="GridCell.Tab.1.left" timestamp="1578979917244">
+    <state width="1557" height="239" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1579123708363" />
+    <state width="1557" height="239" key="GridCell.Tab.1.left" timestamp="1579123708363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="275" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1578979917244" />
-    <state width="1557" height="275" key="GridCell.Tab.1.right" timestamp="1578979917244">
+    <state width="1557" height="239" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1579123708363" />
+    <state width="1557" height="239" key="GridCell.Tab.1.right" timestamp="1579123708363">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="275" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1578979917244" />
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579017507467">
+    <state width="1557" height="239" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1579123708363" />
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579119727411">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579017507467" />
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579119727411" />
+    <state x="542" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1579057571307">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="542" y="58" key="refactoring.ChangeSignatureDialog/0.0.1600.860@0.0.1600.860" timestamp="1579057571307" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1578977207937">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -251,6 +292,71 @@
           <url>file://$PROJECT_DIR$/src/math/problems/Pattern.java</url>
           <line>15</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
