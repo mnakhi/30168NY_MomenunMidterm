@@ -28,7 +28,7 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	private static double salary;
 	private char gender;
 	private String dateOfBirth;
-	private int performance;
+	private double performanceStar;
 
 
 
@@ -67,12 +67,12 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 		this.assignedDepartment = assignedDepartment;
 	}
 
-	public int getPerformance() {
-		return performance;
+	public double getPerformanceStar() {
+		return performanceStar;
 	}
 
-	public void setPerformance(int performance) {
-		this.performance = performance;
+	public void setPerformanceStar(double performanceStar) {
+		this.performanceStar = performanceStar;
 	}
 
 
@@ -116,6 +116,8 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	 */
 	public EmployeeInfo(){
 	}
+
+
 	public EmployeeInfo(int employeeId, String employeeName) {
 		this.employeeId = employeeId;
 		this.employeeName = employeeName;
@@ -130,14 +132,15 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	}
 
 
-	public EmployeeInfo(String employeeName, int employeeId, String assignedDepartment, char gender, String dateOfBirth, int performance) {
+	public EmployeeInfo(String employeeName, int employeeId, String assignedDepartment, char gender, String dateOfBirth, double performanceStar) {
 		this.employeeName = employeeName;
 		this.employeeId = employeeId;
 		this.assignedDepartment = assignedDepartment;
 		this.gender = gender;
 		this.dateOfBirth = dateOfBirth;
-		this.performance = performance;
+		this.performanceStar = performanceStar;
 	}
+
 
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
@@ -147,15 +150,15 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	 * So you probably need to send 2 arguments.
 	 * 
 	 */
-	public static double calculateEmployeeBonus(int salary, int performance){
+	public static double calculateEmployeeBonus(double salary, double performanceStar){
 		double total=0;
-		if(performance == 100 && performance>80){
+		if(performanceStar == 5.0 && performanceStar>4.5){
 			total += (salary*.10);
-		}else if(performance <=80 && performance>70){
+		}else if(performanceStar <=4.5 && performanceStar>4.0){
 			total += (salary*.08);
-		}else if(performance <= 70 && performance>50){
+		}else if(performanceStar <= 4.0 && performanceStar>3.6){
 			total += (salary*.70);
-		}else if (performance <= 50 && performance>30){
+		}else if (performanceStar <= 3.6 && performanceStar>3.2){
 			total+=(salary*.50);
 		}else{
 			total+=total;
@@ -206,31 +209,59 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 
 		return pensionAmount;
 	}
+	public void gettingPromoted(double performanceStar) {
+		if(performanceStar==5 || performanceStar>=4.0){
+			System.out.println("Congratulations!!!You will be promoted next years");
+		}
+		else{
+			System.out.println("Work Harder...");
+		}
+	}
 
 	@Override
 	public int employeeId() {
-		return 0;
+		return employeeId;
 	}
 
 	@Override
 	public String employeeName() {
-		return null;
+		return employeeName;
 	}
 
 	@Override
 	public void assignDepartment() {
-
+		this.assignedDepartment = assignedDepartment;
 	}
 
 	@Override
-	public int calculateSalary() {
-		return 0;
+	public double calculateSalary() {
+		double calculatedSalary = salary+calculateEmployeeBonus(salary, performanceStar);
+		System.out.println("Salary with added bonus is "+calculatedSalary);
+		return calculatedSalary;
 	}
 
 	@Override
 	public void benefitLayout() {
-
+		System.out.println(employeeName+ " receives bonus of "+calculateEmployeeBonus(EmployeeInfo.getSalary(),100));
+		System.out.println(employeeName+ " gets 10 days of paid vacation");
 	}
+	@Override
+	public int vacationRemaining(int vacationTaken) {
+		int vacationRemaining = 0;
+		if(vacationTaken==10){
+			vacationRemaining = 0;
+			System.out.println("You already had a great vacation this year");
+		}else{
+			vacationRemaining = 10-vacationRemaining;
+			System.out.println("You have "+ vacationRemaining+ " more days vacation for this year");
+		}
+		return vacationRemaining;
+	}
+
+
+
+
+
 
 	private static class DateConversion {
 

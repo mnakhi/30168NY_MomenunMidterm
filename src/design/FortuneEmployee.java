@@ -16,6 +16,11 @@ public class FortuneEmployee {
 	public static void main(String[] args) {
 		Employee em1 = new EmployeeInfo("John Doe",123,"Finance",50000.99,'M');
 		System.out.println(EmployeeInfo.calculateEmployeeBonus(50000,100));
+		em1.benefitLayout();
+		System.out.println("************************");
+		EmployeeInfo em2 = new EmployeeInfo("James Watson",124,"IT",'M',"11/12/2019",4.2);
+		em2.gettingPromoted(4.2);
+		System.out.println(em2.getCOMPANY_ADDRESS());
 
 
 	}
