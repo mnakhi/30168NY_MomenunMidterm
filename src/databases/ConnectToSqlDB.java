@@ -180,7 +180,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public static List<User> readUserProfileFromSqlTable()throws IOException, SQLException, ClassNotFoundException{
         List<User> list = new ArrayList<>();
         User user = null;
