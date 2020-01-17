@@ -1,11 +1,16 @@
 package datastructure;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Iterator;
+import databases.ConnectToSqlDB;
 
 public class UseArrayList {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		/*
 		 * Demonstrate how to use ArrayList that includes add,peek,remove,retrieve elements.
 		 * Use For Each loop and while loop with Iterator to retrieve data.
@@ -36,6 +41,31 @@ public class UseArrayList {
 		Iterator iterator = studentName.iterator();
 		while (iterator.hasNext()){
 			System.out.println(iterator.next());
+		}
+		sqlConnection();
+
+
+	}
+	public static void sqlConnection() throws SQLException {
+		String url = "jdbc:mysql://localhost:3306/midterm?serverTimezone=UTC";
+		String user = "root";
+		String password="Queen!&(20)";
+		Connection connection = null;
+		Statement statement = null;
+
+		try{
+			connection = DriverManager.getConnection(url,user,password);
+			statement = connection.createStatement();
+			String query="insert into usearraylist(id,studentname) values (7,'Zim');";
+			statement.execute(query);
+			System.out.println("extra student added");
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.out.println("Something went wrong");
+		}
+		finally {
+			statement.close();
+			connection.close();
 		}
 
 	}

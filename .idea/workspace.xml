@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/LowestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CsvReader">
+  <component name="RunManager" selected="Application.UseArrayList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -92,6 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -101,25 +112,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTestingMath.positiveFibonacci" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CodingExamJuly2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="math.problems" />
-      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
-      <option name="METHOD_NAME" value="positiveFibonacci" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,18 +166,18 @@
     <list>
       <item itemvalue="Application.FortuneEmployee" />
       <item itemvalue="Application.Permutation" />
-      <item itemvalue="TestNG.UnitTestingMath.positiveFibonacci" />
+      <item itemvalue="Application.CsvReader" />
       <item itemvalue="TestNG.UnitTestingStringProblem.positiveTestPermutation" />
       <item itemvalue="TestNG.UnitTestingStringProblem.positiveTestPermutation1" />
-      <item itemvalue="Application.CsvReader" />
+      <item itemvalue="Application.UseArrayList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseArrayList" />
         <item itemvalue="Application.CsvReader" />
         <item itemvalue="TestNG.UnitTestingStringProblem.positiveTestPermutation1" />
         <item itemvalue="TestNG.UnitTestingStringProblem.positiveTestPermutation" />
         <item itemvalue="Application.Permutation" />
-        <item itemvalue="TestNG.UnitTestingMath.positiveFibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -256,22 +248,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578932449884" />
-    <state width="1557" height="2" key="GridCell.Tab.0.bottom" timestamp="1579241902160">
+    <state width="1557" height="216" key="GridCell.Tab.0.bottom" timestamp="1579288212913">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579241902160" />
-    <state width="1557" height="2" key="GridCell.Tab.0.center" timestamp="1579241902160">
+    <state width="1557" height="216" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579288212913" />
+    <state width="1557" height="216" key="GridCell.Tab.0.center" timestamp="1579288212913">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579241902160" />
-    <state width="1557" height="2" key="GridCell.Tab.0.left" timestamp="1579241902160">
+    <state width="1557" height="216" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579288212913" />
+    <state width="1557" height="216" key="GridCell.Tab.0.left" timestamp="1579288212913">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579241902160" />
-    <state width="1557" height="2" key="GridCell.Tab.0.right" timestamp="1579241902160">
+    <state width="1557" height="216" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579288212913" />
+    <state width="1557" height="216" key="GridCell.Tab.0.right" timestamp="1579288212913">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="2" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579241902160" />
+    <state width="1557" height="216" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579288212913" />
     <state width="1557" height="239" key="GridCell.Tab.1.bottom" timestamp="1579124902232">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -288,10 +280,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="239" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1579124902232" />
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579241469786">
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579284847310">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579241469786" />
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579284847310" />
     <state x="542" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1579057571307">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
