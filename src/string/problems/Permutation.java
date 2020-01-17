@@ -28,7 +28,7 @@ public class Permutation {
         b[j] = temp;
         return String.valueOf(b);
     }
-    public static void generatePermutation(String str,int start, int end){
+    public static String generatePermutation(String str, int start, int end){
         if(start != end-1){
             for(int i = start; i<end; i++){
                 str = swapString(str, start, i);
@@ -38,6 +38,7 @@ public class Permutation {
         }else{
             System.out.println(str);
         }
+        return str;
     }
 
 
