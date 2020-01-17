@@ -21,8 +21,8 @@ public class Numbers {
 	 */
 
 	public static void main(String[] args) throws Exception {
-		
-		int [] num = new int[1000000];
+
+		int [] num = new int[100];
 		storeRandomNumbers(num);
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 		//Selection Sort
@@ -30,9 +30,9 @@ public class Numbers {
 		algo.selectionSort(num);
 		long selectionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of "+ num.length + " numbers in Selection Sort take: " + selectionSortExecutionTime + " milli sec");
-        connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
-        List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
-        printValue(numbers);
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "selection_sort", "SortingNumbers");
+		List<String> numbers = connectToSqlDB.readDataBase("selection_sort", "SortingNumbers");
+		printValue(numbers);
 		int n = num.length;
 		randomize (num, n);
 		//Insertion Sort
@@ -42,15 +42,63 @@ public class Numbers {
 
 		//By following above, Continue for rest of the Sorting Algorithm....
 
+		//Bubble Sort
+		randomize (num, n);
 
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
 
+		System.out.println();
 
+		//Merge Sort
+		randomize (num, n);
 
+		algo.mergeSort(num, 0, n-1);
+		long mergeSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Merge Sort take: " + mergeSortExecutionTime + " milli sec");
 
+		System.out.println(" ");
 
+		//Quick Sort
+		randomize (num, n);
 
+		algo.quickSort(num, 0, n-1);
+		long quickSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
+
+		System.out.println(" ");
+
+		//Heap Sort
+		randomize (num, n);
+
+		algo.heapSort(num);
+		long heapSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Heap Sort take: " + heapSortExecutionTime + " milli sec");
+
+		System.out.println(" ");
+
+		//Bucket Sort
+		randomize (num, n);
+
+		algo.bucketSort(num,100);
+		System.out.println("Total Execution Time of "+ num.length + " numbers in BucketSort take: " + algo.executionTime + " milli sec");
+
+		System.out.println(" ");
+
+		//Shell Sort
+		randomize (num, n);
+
+		algo.shellSort(num);
+		long shellSortExecutionTime = algo.executionTime;
+		System.out.println("Total Execution Time of " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
 
 		//Come to conclusion about which Sorting Algo is better in given data set.
+
+		/* A. Judging by the time each sorting algorithm takes, we cannot come to a definitive answer as to which one is better, as all the
+		algorithms for this specific array takes the same time. However in this case we can choose Quicksort being better as it would be lighter
+		on the memory (as is in it will complete its sorting in cache memory).
+		*/
 
 	}
 
