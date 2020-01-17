@@ -1,5 +1,9 @@
 package datastructure;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.*;
 
 public class UseMap {
@@ -49,6 +53,30 @@ public class UseMap {
 		while (iterator.hasNext()){
 			Map.Entry<String, List<String>>entry = iterator.next();
 			System.out.println("Key = "+entry.getKey()+" , "+"Value= "+entry.getValue());
+		}
+
+
+	}
+	public static void sqlConnection() throws SQLException {
+		String url = "jdbc:mysql://localhost:3306/midterm?serverTimezone=UTC";
+		String user = "root";
+		String password="Queen!&(20)";
+		Connection connection = null;
+		Statement statement = null;
+
+		try{
+			connection = DriverManager.getConnection(url,user,password);
+			statement = connection.createStatement();
+			String query="select * from usemap where id=2;";
+			statement.execute(query);
+			System.out.println("student info added");
+		} catch (SQLException e) {
+			e.printStackTrace();
+			System.out.println("Something went wrong");
+		}
+		finally {
+			statement.close();
+			connection.close();
 		}
 
 	}
