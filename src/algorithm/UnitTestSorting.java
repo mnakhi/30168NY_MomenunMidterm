@@ -1,5 +1,6 @@
 package algorithm;
 
+import org.junit.Test;
 import org.testng.Assert;
 
 public class UnitTestSorting {
@@ -24,8 +25,63 @@ public class UnitTestSorting {
         //Now implement Unit test for rest of the soring algorithm...................below
 
 
+    }
+    Sort sort = new Sort();
+
+    int [] unSortedArray = {6,9,2,5,1,0,4};
+    int [] sortedArray =   {0,1,2,4,5,6,9};
 
 
+    @Test
+    public void testSelectionSort() {
 
+        int[] result = sort.selectionSort(unSortedArray);
+        assertArrayEquals(result, sortedArray);
+    }
+
+    @Test
+    public void testInsertionSort() {
+
+        int[] result = sort.insertionSort(unSortedArray);
+        assertArrayEquals(result, sortedArray);
+    }
+
+    @Test
+    public void testBubbleSort() {
+
+        int[] result = sort.bubbleSort(unSortedArray);
+        assertArrayEquals(result, sortedArray);
+    }
+
+
+    @Test
+    public void testQuickSort() {
+
+        int[] result = sort.quickSort(unSortedArray, 0, unSortedArray.length - 1);
+        assertArrayEquals(result, sortedArray);
+    }
+
+    @Test
+    public void testHeapSort() {
+
+        int[] result=sort.heapSort(unSortedArray);
+        assertArrayEquals(result, sortedArray);
+    }
+
+    @Test
+    public void testBucketSort() {
+
+        int[] result = sort.bucketSort(unSortedArray, 10);
+        assertArrayEquals(result, sortedArray);
+    }
+
+    private void assertArrayEquals(int[] result, int[] sortedArray) {
+    }
+
+    @Test
+    public void testShellSort() {
+
+        int[] result = sort.shellSort(unSortedArray);
+        assertArrayEquals(result, sortedArray);
     }
 }
