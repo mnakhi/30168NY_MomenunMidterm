@@ -141,6 +141,11 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 		this.performanceStar = performanceStar;
 	}
 
+	public EmployeeInfo(int vacationTaken, String employeeName, int employeeId) {
+		super(vacationTaken);
+		this.employeeName = employeeName;
+		this.employeeId = employeeId;
+	}
 
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
@@ -231,6 +236,7 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	@Override
 	public void assignDepartment() {
 		this.assignedDepartment = assignedDepartment;
+		System.out.println(employeeName + " works in "+assignedDepartment + " department");
 	}
 
 	@Override
@@ -243,7 +249,7 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	@Override
 	public void benefitLayout() {
 		System.out.println(employeeName+ " receives bonus of "+calculateEmployeeBonus(EmployeeInfo.getSalary(),100));
-		System.out.println(employeeName+ " gets 10 days of paid vacation");
+		System.out.println(employeeName+ " gets 10 days of paid vacation in a year");
 	}
 	@Override
 	public int vacationRemaining(int vacationTaken) {

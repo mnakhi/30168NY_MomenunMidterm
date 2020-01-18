@@ -19,4 +19,12 @@ public abstract class AbstractEmployee implements Employee{
 
     public abstract int vacationRemaining(int vacationTaken);
     public abstract void gettingPromoted(double performanceStar);
+    public void checkAnnualTraining(boolean trainingTaken){
+        if(trainingTaken == true){
+            System.out.println(employeeName()+" completed the yearly training requirement");
+        }else{
+            System.out.println(employeeName()+" must complete the yearly training");
+        }
+    }
+
 }

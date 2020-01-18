@@ -23,15 +23,18 @@ public class FortuneEmployee {
 	public static void main(String[] args) throws Exception {
 		Employee em1 = new EmployeeInfo("John Doe",123,"Finance",50000,'M');
 		System.out.println(EmployeeInfo.calculateEmployeeBonus(50000,4.9));
+		em1.calculateSalary();
+
 		em1.benefitLayout();
 		System.out.println("************************");
 		EmployeeInfo em2 = new EmployeeInfo("James Watson",124,"IT",'M',"11/12/1990",4.2);
 		em2.gettingPromoted(4.2);
+		em2.assignDepartment();
 		System.out.println(em2.getCOMPANY_ADDRESS());
 		System.out.println("**********************");
 		EmployeeInfo em3 = new EmployeeInfo("John Snow",125,"HR",'M',"10/03/1980",3.4);
-		em2.gettingPromoted(3.4);
-
+		em3.gettingPromoted(3.4);
+		em3.checkAnnualTraining(true);
 		Map<Integer, List<Object>> employeeInfo = new HashMap<Integer, List<Object>>();
 		List<Object> emp1 = new ArrayList<Object>();
 		emp1.add(em1.employeeName());
