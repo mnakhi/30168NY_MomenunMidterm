@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.UnitTestingEmployeeInfo.testNegativeEmployeeInfo">
+  <component name="RunManager" selected="Application.FortuneEmployee">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -264,22 +265,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579295075287" />
-    <state width="1557" height="169" key="GridCell.Tab.0.bottom" timestamp="1579314847404">
+    <state width="1557" height="169" key="GridCell.Tab.0.bottom" timestamp="1579317712419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579314847404" />
-    <state width="1557" height="169" key="GridCell.Tab.0.center" timestamp="1579314847403">
+    <state width="1557" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579317712419" />
+    <state width="1557" height="169" key="GridCell.Tab.0.center" timestamp="1579317712419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579314847403" />
-    <state width="1557" height="169" key="GridCell.Tab.0.left" timestamp="1579314847403">
+    <state width="1557" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579317712419" />
+    <state width="1557" height="169" key="GridCell.Tab.0.left" timestamp="1579317712419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579314847403" />
-    <state width="1557" height="169" key="GridCell.Tab.0.right" timestamp="1579314847404">
+    <state width="1557" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579317712419" />
+    <state width="1557" height="169" key="GridCell.Tab.0.right" timestamp="1579317712419">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579314847404" />
+    <state width="1557" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579317712419" />
     <state width="1557" height="239" key="GridCell.Tab.1.bottom" timestamp="1579124902232">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

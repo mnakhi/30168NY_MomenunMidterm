@@ -215,4 +215,7 @@ public class ConnectToSqlDB {
             System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
         }
     }
+
+    public void createTableFromStringToMySql(String employee_records, String emp_info) {
+    }
 }

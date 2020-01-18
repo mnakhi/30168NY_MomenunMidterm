@@ -152,13 +152,13 @@ public class EmployeeInfo extends AbstractEmployee implements Employee {
 	 */
 	public static double calculateEmployeeBonus(double salary, double performanceStar){
 		double total=0;
-		if(performanceStar == 5.0 && performanceStar>4.5){
+		if(performanceStar == 5.0 || performanceStar>4.5){
 			total += (salary*.10);
-		}else if(performanceStar <=4.5 && performanceStar>4.0){
+		}else if(performanceStar <=4.5 || performanceStar>4.0){
 			total += (salary*.08);
-		}else if(performanceStar <= 4.0 && performanceStar>3.6){
+		}else if(performanceStar <= 4.0 || performanceStar>3.6){
 			total += (salary*.70);
-		}else if (performanceStar <= 3.6 && performanceStar>3.2){
+		}else if (performanceStar <= 3.6 || performanceStar>3.2){
 			total+=(salary*.50);
 		}else{
 			total+=total;
