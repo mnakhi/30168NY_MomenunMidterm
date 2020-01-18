@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="Application.PrimeNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -94,13 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.PrimeNumber" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructure.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +168,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.FortuneEmployee" />
-      <item itemvalue="Application.UseArrayList" />
-      <item itemvalue="TestNG.UnitTestConnectDB.unitTest" />
-      <item itemvalue="JUnit.UnitTestSorting.testQuickSort" />
       <item itemvalue="Application.LowestNumber" />
       <item itemvalue="Application.Numbers" />
+      <item itemvalue="Application.PrimeNumber" />
+      <item itemvalue="JUnit.UnitTestSorting.testQuickSort" />
+      <item itemvalue="TestNG.UnitTestConnectDB.unitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.Numbers" />
         <item itemvalue="Application.LowestNumber" />
         <item itemvalue="JUnit.UnitTestSorting.testQuickSort" />
         <item itemvalue="TestNG.UnitTestConnectDB.unitTest" />
-        <item itemvalue="Application.UseArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -251,22 +251,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579295075287" />
-    <state width="1557" height="169" key="GridCell.Tab.0.bottom" timestamp="1579298674856">
+    <state width="688" height="169" key="GridCell.Tab.0.bottom" timestamp="1579299818586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579298674856" />
-    <state width="1557" height="169" key="GridCell.Tab.0.center" timestamp="1579298674856">
+    <state width="688" height="169" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579299818586" />
+    <state width="688" height="169" key="GridCell.Tab.0.center" timestamp="1579299818586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579298674856" />
-    <state width="1557" height="169" key="GridCell.Tab.0.left" timestamp="1579298674856">
+    <state width="688" height="169" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579299818586" />
+    <state width="688" height="169" key="GridCell.Tab.0.left" timestamp="1579299818586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579298674856" />
-    <state width="1557" height="169" key="GridCell.Tab.0.right" timestamp="1579298674856">
+    <state width="688" height="169" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579299818586" />
+    <state width="688" height="169" key="GridCell.Tab.0.right" timestamp="1579299818586">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579298674856" />
+    <state width="688" height="169" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579299818586" />
     <state width="1557" height="239" key="GridCell.Tab.1.bottom" timestamp="1579124902232">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -287,10 +287,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="560" y="8" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579295106752" />
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579284847310">
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579310414258">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579284847310" />
+    <state x="883" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579310414258" />
     <state x="504" y="323" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579296702566">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

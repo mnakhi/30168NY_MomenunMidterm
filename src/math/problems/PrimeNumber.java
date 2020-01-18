@@ -1,5 +1,7 @@
 package math.problems;
 
+import databases.ConnectToSqlDB;
+
 public class PrimeNumber {
 
 	public static void main(String[] args) {
@@ -18,7 +20,18 @@ public class PrimeNumber {
 				primeNumbers = primeNumbers + i+ " ";
 			}
 		}
+
 		System.out.print("Prime numbers from 2 to 1000000 are: "+ primeNumbers);
+		ConnectToSqlDB connectDB=new ConnectToSqlDB();
+
+		int counter=0;
+		try {
+			connectDB.readDataBase("isprime","number");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 	}
 	public static boolean isPrime(int numberToCheck) {
 		for (int i = 2; i <= numberToCheck / 2; i++) {
